@@ -73,7 +73,7 @@ function writeHikes() {
 // Create a "max" number of hike document objects
 //-----------------------------------------------
 function writeHikeData() {
-    max = 21;
+    max = 4;
     //define a variable for the collection you want to create in Firestore to populate data
     var hikesRef = db.collection("hikes");
     for (i = 1; i <= max; i++) {
